@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    z-index: 999;
+    transition: height .5s ease-in;
+    max-width: 1400px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-width: 0;
+    border-bottom-style: solid;
+    border-bottom-color: #999;
+    border: 2px solid black;
+}
+
+.logo {
+    width: 262.7px;
+    height: 100%;
+    border: 1px solid red;
+    vertical-align: baseline;
+    display: flex;
+    flex-direction: inherit;
+}
+.logo a{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.logo img {
+    width: 100%;
+}
