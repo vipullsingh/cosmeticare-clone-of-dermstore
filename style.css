@@ -283,3 +283,130 @@ header {
     margin-bottom: auto;
   }
   
+  .slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    margin-top:13px;
+    height: 45%;
+
+}
+ 
+.slideshow-container img {
+    width: 100%;
+    height: 100%;
+
+}
+.slideshow-container img:hover {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+
+}
+
+
+
+.mySlides {
+    margin: auto;
+    width: 99%;
+    display: none;
+    height:auto;
+     
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    margin-top: -22px;
+    padding: 10px;
+    color: #6c6766;
+    font-size: 40px;
+    transition: .6s ease;
+    border-radius: 0 2px 2px 0;
+    background-color: rgba(249, 243, 243, 0.8);
+    opacity: 0.5;
+    
+}
+
+.next {
+     position: absolute;
+    right:0.6%;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.prev {
+    position: absolute;
+    left: 0.6%;
+    border-radius: 3px 3px 3px 3px;
+    
+}
+
+.prev:hover,
+.next:hover {
+    color: #f2f2f2;
+    background-color: rgba(156, 151, 151, 0.8)
+}
+.dot {
+    border: 1px solid rgb(157, 155, 153);
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color .7s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171
+}
+
+.shopByCategory{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    /* border : 1px solid black; */
+    text-align: center;
+    font-size: xx-large;
+}
+.shopCat img{
+    width:100%;
+    height : 200px;
+}
+.shopCat{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+.shopCat img:hover{
+    opacity: 0.8;
+}
+.xPoint{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: auto;
+}
+.xPointCont{
+    text-align: center;
+
+}
+.xPoint img{
+    width: 90%;
+}
+.imgCont div{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.imgCont{
+    display: flex;
+    justify-content: space-between;
+}
