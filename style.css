@@ -1,3 +1,9 @@
+*{
+    font-family: 'Delicious Handrawn', cursive;
+font-family: 'Noto Sans SC', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
 header {
     display: flex;
     flex-wrap: wrap;
@@ -397,7 +403,6 @@ header {
 }
 .xPointCont{
     text-align: center;
-
 }
 .xPoint img{
     width: 90%;
@@ -408,5 +413,83 @@ header {
 }
 .imgCont{
     display: flex;
+    padding-bottom: 40px;
+}
+.threeItemEditorial_container{
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 40px;
+    /* border: 2px solid orange; */
+}
+.threeItemEditorial_container div{
+    width: 30%;
+    text-align: center;
+}
+.threeItemEditorial_container img{
+    width: 100%;
+}
+.referral{
+    width: 100%;
+}
+.referral img{
+    width: 100%;
+}
+.featured{
+    text-align: center;
+    width: 100%;
+    font-size: xx-large;
+}
+.featuredBrands{
+    width: 100%;
+    margin-top: auto;
+    height: 60px;
+    display: flex;
+    margin-top: auto;
+    padding-bottom: 40px;
+    justify-content: space-evenly;
+}
+.featuredBrands img{
+    width:100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* height : 200px; */
+}
+
+.featuredBrands div{
+    width: 16%;
+}
+.featuredBrands img:hover{
+    opacity: 0.8;
+}
+.fromtheblog{
+    width: 100%;
+    height: 400px;
+}
+.ftb{
+    /* border: 2px solid black; */
+    display: flex;
     justify-content: space-between;
+}
+.ftb div{
+    /* border: 1px solid red; */
+    margin-left: auto;
+    text-align: center;
+    width: 23%;
+}
+.ftb div p{
+    text-decoration: underline;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+}
+.footerTOP{
+    border: 1px solid red;
+    width: 95%;
 }
