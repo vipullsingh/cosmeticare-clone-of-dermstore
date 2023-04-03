@@ -36,13 +36,6 @@ users can also see new arrivals products and scroll through them just by clickin
 ![App Screenshot](https://snipboard.io/2k34SB.jpg)
 ![App Screenshot](https://snipboard.io/kXgCne.jpg)
 
-## Register Page/Login:
-
-This is the signup page, which the user will get if he clicks on the continue button on the account page and new users can create an account here.
-![App Screenshot](https://snipboard.io/SZthBq.jpg)
-## Login Page:
-This is the login page by clicking on the account option on the landing page users will be redirected to the login page if the users are existing customers they can login by the same email and password. If users are new customers then by clicking on continue they will be redirected to the signup page.
-![App Screenshot](https://snipboard.io/ktXVPK.jpg)
 ## Footer part :-
 This is the footer part of the landing page where users can know about the company, privacy policy and payment partner, and many more. They can also sign up from the button present in the footer.
 ![App Screenshot](https://snipboard.io/KrWGCn.jpg)
