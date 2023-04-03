@@ -152,16 +152,7 @@ header {
     width: 24px;
     height: 24px;
 }
-@media screen and (max-width: 850px) {
-    .search-container{
-        display: none;
-    }
-  }
-@media screen and (max-width: 570px) {
-    .autoMargin{
-        display: none;
-    }
-  }
+
 
   .nav-area {
     /* background:#0C5273 */
@@ -227,11 +218,7 @@ header {
 .nav-area ul ul ul li:hover a {
     background: #34495e;
 }
-@media screen and (max-width: 1192px) {
-    .nav-area{
-        display: none;
-    }
-  }
+
 
 .responsiveSlider{
     display: flex;
@@ -278,16 +265,7 @@ header {
     padding-top: 4px;
     padding-left: 4px;
   }
-  @media screen and (max-width: 750px) {
-    .responsiveSlider{
-        height: 100px;
-    }
-  }
-  @media screen and (max-width: 560px) {
-    .responsiveSlider{
-        display: none;
-    }
-  }
+
   .stripBanner{
     width: 100%;
     /* border: 1px solid black; */
@@ -379,6 +357,7 @@ header {
     display: inline-block;
     transition: background-color .7s ease;
 }
+
 
 .active,
 .dot:hover {
@@ -637,111 +616,92 @@ footer{
 .dropdown-content a:hover:last-child {
     border-bottom: 1px solid transparent;
 }
-#signUpPage{
-    display: flex;
-    height : 600;
-    /* border: 2px solid red; */
-}
-#signUpPage>div:nth-child(1){
-    width: 60%;
-    /* border: 2px solid black; */
-}
-#signUpPage>div:nth-child(1) img{
-    width: 100%;
-}
-#signUpPage>div:nth-child(2){
-    /* border: 2px solid black; */
-    width: 35%;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-#signUpPage>div:nth-child(2)>div{
-    /* border: 2px solid red; */
-    box-shadow: 0 0 15px 3px rgb(0 0 0 / 5%);
-    border-radius: 32px;
-    height: 550px;
-    margin: 72px 0 0;
-    padding: 64px 32px 0;
-}
-#signUpPage>div:nth-child(2)>div h1{
-        font-family: JioType,helvetica,arial,sans-serif;
-    font-weight: 900;
-    text-transform: none;
-    font-size: 1.8rem;
-    letter-spacing: -.96px;
-    line-height: 1;
-}
-#signUpPage>div:nth-child(2)>div p{
-    font-family: JioType,helvetica,arial,sans-serif;
-    font-weight: 500;
-    text-transform: none;
-    font-size: .875rem;
-    letter-spacing: -.07px;
-    line-height: 1.4285714286;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-#signUpPage>div:nth-child(2)>div input{
-    display: block;
-    width: 90%;
-    text-align: left;
-    padding-top: 0;
-    padding-bottom: calc(var(--spacing-xs) + 1px);
-    background-color: #C9E2ED;
-    border: none;
-    outline: none;
-    border-bottom: 2px solid var(--color-primary-grey-80);
-    color: var(--color-primary-grey-100);
-    border-radius: 30;
-    margin-bottom: 1px;
-    box-sizing: border-box;
-    font-family: JioType,helvetica,arial,sans-serif;
-    font-weight: 500;
-    text-transform: none;
-    font-size: 1rem;
-    letter-spacing: -.08px;
-    line-height: 2.2;
-}
-#signUpPage>div:nth-child(2)>div input{
-    margin-bottom: 8px;
-}
-#signupbutton{
-    margin-top: 6px;
-}
-#alreadySignin{
-    text-decoration: none;
-    color: #3293BD;
-}
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-#signedIn_Name{
-    color: #fff;
-}
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
+@media screen and (max-width: 850px) {
+    .search-container{
+        display: none;
+    }
+    .responsiveSlider{
+        display: none;
+    }
   }
-  .search-container{
-    display: flex;
-    align-items: center;
-}
-.search-container span{
-    margin-left: 10px;
-}
-#adminBtn{
-    margin-top: 10px;
-    color: #fff;
-    font-weight: bolder;
-    background-color: #049fe2;
-    text-align: center;
-}
-#adminBtn:hover{
-    background-color: #0078AD;
+@media screen and (max-width: 570px) {
+    .autoMargin{
+        display: none;
+    }
+    .stripBanner{
+        display: none;
+    }
+  }@media screen and (max-width: 1192px) {
+    .nav-area{
+        display: none;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .responsiveSlider{
+        display: none;
+        height: 100px;
+    }
+  }
+  @media screen and (max-width: 560px) {
+    .responsiveSlider{
+        display: none;
+    }
+    .shopCat img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+/* existing CSS code for .shopCat on larger screens */
 
+@media screen and (max-width: 1050px) {
+    .shopCat {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-gap: 10px; /* optional, adds space between grid items */
+    }
+  
+    /* optional, styles for the grid items inside .shopCat */
+    .shopCat div {
+      width: 100%;
+      height: 0;
+      padding-bottom: 100%;
+      position: relative;
+    }
+  
+    /* .shopCat img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    } */
+  }
+@media screen and (max-width: 1160px) {
+    .sliderContainer{
+        padding-bottom: 50px;
+    }
 }
+/* header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #ffffff;
+  }
+  
+  .nav-area {
+    position: fixed;
+    top: 60px; 
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #ffffff; 
+  }  */
+  
