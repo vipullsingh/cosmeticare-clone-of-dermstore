@@ -1,4 +1,4 @@
-> • Netlify Deployed Link - [Dermstore](https://dermstore-01.netlify.app)
+> • Netlify Deployed Link - [CosmetiCare](https://busy-channel-5933.netlify.app/)
 
 # Problem Statement
 
